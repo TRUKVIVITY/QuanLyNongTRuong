@@ -46,6 +46,25 @@ $ cat id_rsa.pub
 Copy this result and go to your Github account >Setting > SSH and GPG key > New SSH key. and paste over there.
 _________________
 And try git push your working directory again!
+_________________
+#[Warning**]
+$ git commit -m "Warning and solve for beginner"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   README.md
+
+Untracked files:
+        git-profile.PNG
+
+no changes added to commit
+#[Solved**]
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+//And try commit -m "" again
 
 
 
